@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="main.css">
+    <title>Register</title>
+</head>
+<body>
+    
+    <form action="/register" method="POST">
+        <h2>¡Registrate!</h2>
+        <div class = "seccion"> 
+            <div class="titulo" >Nombre</div>
+            <div class="caja" ><input type="text" id ="nombre" placeholder= "Nombre" name= "nombre"></div>
+        </div>
+        <div class = "seccion">
+            <div class="titulo" >Apellido</div>
+            <div class="caja" ><input type="text" id ="apellido" placeholder= "Apellido"  name= "apellido"></div>
+        </div>
+        <div class = "seccion">
+            <div class="titulo" >Nombre de Usuario</div>
+            <div class="caja" ><input type="text" id ="nombreusuario" placeholder= "Nombre de usuario"  name= "nombreusuario"></div>
+        </div>
+        <div class = "seccion">
+            <div class="titulo" >Correo electronico</div>
+            <div class="caja" ><input type="text" id ="correo" placeholder= "Correo Electronico" name= "correo"></div>
+        </div>
+        <div class = "seccion">
+            <div class="titulo" >Contraseña</div>
+            <div class="caja" ><input type="password" id ="contraseña" placeholder= "Contraseña" name= "contraseña"></div>
+        </div>
+      
+        <div class = "seccion">
+            <div class="titulo" >Numero Telefonico</div>
+            <div class="caja" ><input type="text" id ="numero" placeholder= "Número de telefono" name= "numero"></div>
+        </div>
+
+        <div class = "seccion">
+            <div class="titulo" >Edad</div>
+            <div class="caja" ><input type="text" id ="edad" placeholder= "Edad" name= "edad"></div>
+        </div>
+        
+        <div class = "seccion" >
+            <div class="titulo" >Genero</div>
+            <select name="genero" placeholder= "genero">
+
+                <option>Masculino</option>
+                
+                <option>Femenino</option>
+                
+                <option selected>Otro</option>
+                
+            </select>
+        </div>  
+          
+        <div class = "seccion">
+            <div class="button" ><input type="submit"  Value= "Registrarse"></div>
+            <div class="button"><a href="login.html">¿Ya tienes usuario? Ingresa</a></div>
+        </div>
+
+        
+    </form>
+</body>
+</html>

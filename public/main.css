@@ -1,0 +1,57 @@
+*{box-sizing: border-box;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(28, 28, 30);
+}
+
+form{width: 400px; margin: 0 auto; border: solid 1px #ccc; padding: 20px; background-color: antiquewhite;}
+
+input[type=text], input[type=password]{
+    border: solid lpx red;
+    border-radius: 3px;
+    font-size: 18px;
+    outline: none;
+    padding: 10px;
+    width: 100%; 
+}
+
+input[type=date] {
+    border: solid lpx red;
+    border-radius: 3px;
+    font-size: 18px;
+    outline: none;
+    padding: 10px;
+    width: 100%; 
+}
+
+input[type=submit] {
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    outline: 0;
+    color: snow;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.seccion{padding : 20 px 0;}
+.seccion .titulo{padding : 10 px 0;}
+
+.button{
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+.button a{
+    color: #1a72cb;
+}
+
+select{
+    border: solid lpx red;
+    border-radius: 3px;
+    font-size: 18px;
+    outline: none;
+    padding: 10px;
+    width: 100%; 
+}
